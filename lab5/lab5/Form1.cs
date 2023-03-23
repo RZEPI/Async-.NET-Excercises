@@ -213,5 +213,12 @@ namespace lab5
             if (result == DialogResult.OK)
                 Compression.DecompressDirectory(new System.IO.DirectoryInfo(folderBrowser.SelectedPath));
         }
+
+        private void resolveButton_Click(object sender, EventArgs e)
+        {
+            List<Tuple<string, string>> domainsList = HostNames.MapDomains();
+            foreach(Tuple<string, string> domain in domainsList)
+                domainTextBox.Text += domain.Item1 + " =>\n" + domain.Item2 +"\n";
+        }
     }
 }

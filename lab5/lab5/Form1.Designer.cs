@@ -47,6 +47,9 @@
             this.label4 = new System.Windows.Forms.Label();
             this.compressButton = new System.Windows.Forms.Button();
             this.decompressButton = new System.Windows.Forms.Button();
+            this.domainTextBox = new System.Windows.Forms.RichTextBox();
+            this.resolveButton = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.nFibValue)).BeginInit();
             this.SuspendLayout();
             // 
@@ -238,11 +241,41 @@
             this.decompressButton.UseVisualStyleBackColor = true;
             this.decompressButton.Click += new System.EventHandler(this.decompressButton_Click);
             // 
+            // domainTextBox
+            // 
+            this.domainTextBox.Location = new System.Drawing.Point(22, 206);
+            this.domainTextBox.Name = "domainTextBox";
+            this.domainTextBox.Size = new System.Drawing.Size(147, 126);
+            this.domainTextBox.TabIndex = 18;
+            this.domainTextBox.Text = "";
+            // 
+            // resolveButton
+            // 
+            this.resolveButton.Location = new System.Drawing.Point(89, 181);
+            this.resolveButton.Name = "resolveButton";
+            this.resolveButton.Size = new System.Drawing.Size(69, 19);
+            this.resolveButton.TabIndex = 19;
+            this.resolveButton.Text = "Resolve";
+            this.resolveButton.UseVisualStyleBackColor = true;
+            this.resolveButton.Click += new System.EventHandler(this.resolveButton_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(33, 184);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(30, 13);
+            this.label5.TabIndex = 20;
+            this.label5.Text = "DNS";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(399, 365);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.resolveButton);
+            this.Controls.Add(this.domainTextBox);
             this.Controls.Add(this.decompressButton);
             this.Controls.Add(this.compressButton);
             this.Controls.Add(this.label4);
@@ -291,6 +324,9 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button compressButton;
         private System.Windows.Forms.Button decompressButton;
+        private System.Windows.Forms.RichTextBox domainTextBox;
+        private System.Windows.Forms.Button resolveButton;
+        private System.Windows.Forms.Label label5;
     }
 }
 
