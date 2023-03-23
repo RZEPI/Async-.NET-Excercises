@@ -1,0 +1,11 @@
+D:\studia dev\Platformy technologiczne\lab5\second excercise\second excercise\obj\Debug\second excercise.csproj.AssemblyReference.cache
+D:\studia dev\Platformy technologiczne\lab5\second excercise\second excercise\obj\Debug\second excercise.csproj.SuggestedBindingRedirects.cache
+D:\studia dev\Platformy technologiczne\lab5\second excercise\second excercise\obj\Debug\second_excercise.Form1.resources
+D:\studia dev\Platformy technologiczne\lab5\second excercise\second excercise\obj\Debug\second_excercise.Properties.Resources.resources
+D:\studia dev\Platformy technologiczne\lab5\second excercise\second excercise\obj\Debug\second excercise.csproj.GenerateResource.cache
+D:\studia dev\Platformy technologiczne\lab5\second excercise\second excercise\obj\Debug\second excercise.csproj.CoreCompileInputs.cache
+D:\studia dev\Platformy technologiczne\lab5\second excercise\second excercise\bin\Debug\second excercise.exe.config
+D:\studia dev\Platformy technologiczne\lab5\second excercise\second excercise\bin\Debug\second excercise.exe
+D:\studia dev\Platformy technologiczne\lab5\second excercise\second excercise\bin\Debug\second excercise.pdb
+D:\studia dev\Platformy technologiczne\lab5\second excercise\second excercise\obj\Debug\second excercise.exe
+D:\studia dev\Platformy technologiczne\lab5\second excercise\second excercise\obj\Debug\second excercise.pdb
