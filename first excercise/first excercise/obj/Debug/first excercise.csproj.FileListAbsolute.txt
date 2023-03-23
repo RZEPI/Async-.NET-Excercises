@@ -1,8 +1,0 @@
-D:\studia dev\Platformy technologiczne\lab5\first excercise\first excercise\obj\Debug\first excercise.csproj.AssemblyReference.cache
-D:\studia dev\Platformy technologiczne\lab5\first excercise\first excercise\obj\Debug\first excercise.csproj.SuggestedBindingRedirects.cache
-D:\studia dev\Platformy technologiczne\lab5\first excercise\first excercise\obj\Debug\first excercise.csproj.CoreCompileInputs.cache
-D:\studia dev\Platformy technologiczne\lab5\first excercise\first excercise\bin\Debug\first excercise.exe.config
-D:\studia dev\Platformy technologiczne\lab5\first excercise\first excercise\bin\Debug\first excercise.exe
-D:\studia dev\Platformy technologiczne\lab5\first excercise\first excercise\bin\Debug\first excercise.pdb
-D:\studia dev\Platformy technologiczne\lab5\first excercise\first excercise\obj\Debug\first excercise.exe
-D:\studia dev\Platformy technologiczne\lab5\first excercise\first excercise\obj\Debug\first excercise.pdb
