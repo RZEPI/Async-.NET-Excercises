@@ -1,3 +1,0 @@
-D:\studia dev\Platformy technologiczne\lab5\first excercise\first excercise\obj\Release\first excercise.csproj.AssemblyReference.cache
-D:\studia dev\Platformy technologiczne\lab5\first excercise\first excercise\obj\Release\first excercise.csproj.SuggestedBindingRedirects.cache
-D:\studia dev\Platformy technologiczne\lab5\first excercise\first excercise\obj\Release\first excercise.csproj.CoreCompileInputs.cache
