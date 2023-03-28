@@ -43,6 +43,7 @@ namespace lab5
             if (!Int32.TryParse(kValue.Text, out k))
             {
                 taskResult.Text = "NAN";
+                k = 0;
             }
             return (n,k);
         }
@@ -57,7 +58,7 @@ namespace lab5
                 (obj) => CalculateDenominator(n, k),
                 100);
             factorTask.Wait();
-                denominatorTask.Wait();
+            denominatorTask.Wait();
 
             return denominatorTask.Result / factorTask.Result;
         }
@@ -98,22 +99,20 @@ namespace lab5
         }
 
 
-        private void Async_Click(object sender, EventArgs e)
+        private async void Async_Click(object sender, EventArgs e)
         {
             int n, k;
             (n, k) = GetValues();
             if (n != 0)
-                asyncResult.Text = NewtonSymbolAsyncAwait(n, k).Result.ToString();
+                NewtonSymbolAsyncAwait(n, k);
         }
-        public static async Task<double> NewtonSymbolAsyncAwait(int n, int k)
+        public async void NewtonSymbolAsyncAwait(int n, int k)
         {
             
-            var denominator = System.Threading.Tasks.Task.Run(() => CalculateDenominator(n, k));
-            var factor = System.Threading.Tasks.Task.Run(() => CalculateFactor(k));
+            var denominator =  await System.Threading.Tasks.Task.Run(() => CalculateDenominator(n,k));
+            var factor =  await System.Threading.Tasks.Task.Run(() =>CalculateFactor(k));
 
-            await System.Threading.Tasks.Task.WhenAll(denominator, factor);
-
-            return denominator.Result / factor.Result;
+            asyncResult.Text = (denominator / factor).ToString();
         }
 
         public void InitializeBackgroundWorker()
